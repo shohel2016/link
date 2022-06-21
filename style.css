@@ -370,8 +370,11 @@ textarea {
   .contact {
     width: 320px;
   }
-  .contact-link {
+  .side-img {
     width: 320px;
+  }
+  .side-img img {
+    width: 300px;
   }
 }
 
