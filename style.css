@@ -63,7 +63,82 @@ a:hover {
 }
 
 /* =======navber Ends here============== */
-/* =======pop
+.newsletter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 60px;
+  border: #fff;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 0 0 100vh rgba(49, 39, 71, 0.95);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.newsletter ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.newsletter ul li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.newsletter ul li img {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.newsletter.active {
+  visibility: visible;
+  opacity: 1;
+}
+.newsletter h2 {
+  font-size: 48px;
+  color: #312747;
+}
+.newsletter p {
+  font-size: 20px;
+  color: #312747;
+}
+
+.newsletter .inputBox {
+  margin-top: 20px;
+}
+
+.newsletter .inputBox input {
+  padding: 10px;
+  outline: none;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid#999;
+}
+
+.newsletter .inputBox input[type="submit"] {
+  padding: 10px;
+  outline: none;
+  width: 140px;
+  background: #ff0083;
+  border: 1px solid #ff0083;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.newsletter .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: none;
+}
 
 /*==========slider steard==============*/
 .slider-head {
