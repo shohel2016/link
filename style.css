@@ -205,7 +205,7 @@ section {
 }
 .achievement-contact .contact {
   text-align: center;
-  width: 400px;
+  width: 370px;
   margin: 10px;
   margin-top: -8px;
 }
@@ -304,6 +304,9 @@ textarea {
   .conteniar {
     max-width: 800%;
   }
+  .content .card-content {
+    width: 400px;
+  }
 }
 @media (max-width: 858px) {
   .checkbtn {
@@ -358,7 +361,7 @@ textarea {
     justify-content: center;
   }
   .content .card-content .card-body img {
-    height: 20vh;
+    height: 30vh;
   }
   .achievement-contact {
     display: flex;
@@ -390,20 +393,19 @@ textarea {
     width: 170px;
     margin: 0 auto;
   }
-  .content .card-content .card-body img {
-    height: 28vh;
-  }
   .notice p {
     font-size: 15px;
   }
   .achievement-contact {
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
   }
   .achievement-contact .contact {
-    margin-left: -10px;
+    margin-left: 10px;
+    margin: 5px;
   }
   .card {
     width: 380px;
@@ -431,8 +433,24 @@ textarea {
     align-items: center;
     justify-content: center;
   }
+  .content .card-body {
+    height: 100px;
+  }
   .count-down .box h3 {
     font-size: 15px;
+  }
+  .side-img {
+    width: 350px;
+    padding-bottom: 10px;
+  }
+  .achievement-contact .contact {
+    width: 350px;
+  }
+  .footer-desc {
+    font-size: 12px;
+  }
+  .footer-menu a {
+    margin: 5px;
   }
 }
 /*Responsive nav-ber Ends*/
