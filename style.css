@@ -367,6 +367,12 @@ textarea {
   .card {
     width: 380px;
   }
+  .contact {
+    width: 320px;
+  }
+  .contact-link {
+    width: 320px;
+  }
 }
 
 @media (max-width: 400px) {
