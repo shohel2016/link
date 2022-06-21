@@ -203,10 +203,11 @@ section {
   width: 960px;
   margin: 0 auto;
 }
-.contact {
+.achievement-contact .contact {
   text-align: center;
   width: 400px;
   margin: 10px;
+  margin-top: -8px;
 }
 
 .contact input,
@@ -232,10 +233,6 @@ textarea {
   color: #fff;
 }
 
-.contact-link {
-  margin-top: 15px;
-}
-
 .side-img {
   width: 400px;
 }
@@ -243,7 +240,7 @@ textarea {
   width: 350px;
   height: 310px;
 }
-.btn:hover {
+.achievement-contact button:hover {
   background-color: gray;
 }
 .achievement-contact::after {
@@ -253,6 +250,45 @@ textarea {
 }
 /*Achievement-contact ends from--*/
 /* ===================footer start here ===============*/
+.footer {
+  background-color: #222221;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu a {
+  margin: 15px;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+.footer-desc {
+  margin-top: -8px;
+
+  float: inline-end;
+}
+.footer-menu a:hover {
+  color: gray;
+}
+
+.footer::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.footer-menu a {
+  background: none;
+  width: 100%;
+  color: white;
+}
 
 /* ===================footer Eens here ===============*/
 /*Responsive nav-ber stert here*/
@@ -324,6 +360,12 @@ textarea {
   .content .card-content .card-body img {
     height: 20vh;
   }
+  .achievement-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -357,24 +399,20 @@ textarea {
   .achievement-contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
   }
   .achievement-contact .contact {
     margin-left: -10px;
   }
-  .count-down .box h3 {
-    font-size: 12px;
-  }
   .card {
     width: 380px;
   }
+  .count-down .box h3 {
+    font-size: 15px;
+  }
   .contact {
-    width: 320px;
-  }
-  .side-img {
-    width: 320px;
-  }
-  .side-img img {
-    width: 300px;
+    width: 400px;
   }
 }
 
@@ -394,17 +432,7 @@ textarea {
     justify-content: center;
   }
   .count-down .box h3 {
-    font-size: 12px;
+    font-size: 15px;
   }
-   .side-img {
-    width: 320px;
-  }
-  .side-img img {
-    width: 300px;
-  }
-  .contact {
-    width: 320px;
-  }
-    
 }
 /*Responsive nav-ber Ends*/
