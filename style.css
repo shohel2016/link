@@ -361,6 +361,9 @@ textarea {
   .achievement-contact .contact {
     margin-left: -10px;
   }
+  .count-down .box h3 {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 400px) {
