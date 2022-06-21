@@ -378,5 +378,8 @@ textarea {
     align-items: center;
     justify-content: center;
   }
+  .count-down .box h3 {
+    font-size: 15px;
+    
 }
 /*Responsive nav-ber Ends*/
