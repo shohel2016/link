@@ -396,6 +396,15 @@ textarea {
   .count-down .box h3 {
     font-size: 12px;
   }
+   .side-img {
+    width: 320px;
+  }
+  .side-img img {
+    width: 300px;
+  }
+  .contact {
+    width: 320px;
+  }
     
 }
 /*Responsive nav-ber Ends*/
