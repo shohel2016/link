@@ -271,7 +271,59 @@ section {
   border-radius: 50%;
 }
 /*=========  contact starts from  ============*/
+#contact {
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+}
+.contact-wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.contact-wrap video {
+  margin: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 
+  margin: 0 auto;
+}
+.form-group input,
+textarea {
+  margin: 5px;
+
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+}
+.form-group .btn {
+  padding: 5px;
+  border-radius: 5px;
+  background: hsl(329, 100%, 50%);
+  color: white;
+  font-size: 20px;
+}
+.socal-media-btn {
+  margin-top: -60px;
+}
+.socal-media-btn i {
+  margin: 10px;
+  cursor: pointer;
+}
+#myVideo {
+  width: 400px;
+  height: 250px;
+  transition: all ease 0.3s;
+  margin: 60px;
+  margin-top: 20px;
+}
+#myVideo:hover {
+  transform: scale(1.1);
+}
 /*===========contact ends from===========*/
 /* ===================footer start here ===============*/
 .footer {
@@ -395,6 +447,18 @@ section {
   .card .body h3 {
     font-size: 20px;
   }
+  #myVideo {
+    width: 350px;
+    position: relative;
+  }
+  .socal-media-btn {
+    position: absolute;
+    left: 16%;
+  }
+  .contact-wrap {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 360px) {
@@ -423,6 +487,18 @@ section {
   }
   .card .body h4 {
     font-size: 14px;
+  }
+  #myVideo {
+    width: 250px;
+    position: relative;
+  }
+  .socal-media-btn {
+    position: absolute;
+    left: 8%;
+  }
+  .contact-wrap {
+    display: flex;
+    flex-direction: column;
   }
 }
 /*=====Responsive 858 Ends here=========*/
